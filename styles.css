@@ -131,7 +131,7 @@ button {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    width: 800px;
+    width: 790px;
 }
 
 .quoter {
@@ -141,4 +141,30 @@ button {
     display: flex;
     align-self: flex-end;
     margin-right: 250px;
+}
+
+.action {
+    background-color: #F9FAF8;
+    padding: 100px 200px;
+}
+
+.blue {
+    background-color: #3882F6;
+    padding: 50px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.actionheader {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.actionbutton {
+    border-style: solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
 }
