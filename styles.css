@@ -168,3 +168,12 @@ button {
     border-color: #F9FAF8;
     color: #F9FAF8;
 }
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 18px;
+}
