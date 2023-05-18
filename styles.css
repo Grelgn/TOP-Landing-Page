@@ -7,7 +7,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     font-weight: 900;
     padding: 12px;
 }
@@ -24,11 +24,7 @@ a {
     text-decoration: none;
 }
 
-.hero {
-    background-color: #1F2937;
-}
-
-.hero , a {
+.hero , .header > ul > li > a {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
@@ -68,7 +64,6 @@ a {
 button {
     width: 130px;
     background-color: #3882F6;
-    color: #F9FAF8;
     padding: 8px;
     margin-top: 12px;
     font-size: 16px;
@@ -124,18 +119,17 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #1F2937;
 }
 
 .quotetext {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
     width: 790px;
 }
 
 .quoter {
-    color: #1F2937;
     font-weight: 700;
     font-size: 24px;
     display: flex;
@@ -166,7 +160,6 @@ button {
 .actionbutton {
     border-style: solid;
     border-color: #F9FAF8;
-    color: #F9FAF8;
 }
 
 .footer {
@@ -176,4 +169,8 @@ button {
     align-items: center;
     padding: 40px;
     font-size: 18px;
+}
+
+button > a {
+    color: #F9FAF8;
 }
